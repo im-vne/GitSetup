@@ -19,3 +19,4 @@ generateY <- function(X, beta, sigma, seed = 5832652){
   return(Y)
 }
 test.matrix = matrix(data = rnorm(6),nrow = 2)
+generateY(test.matrix,2,sigma = 3)
